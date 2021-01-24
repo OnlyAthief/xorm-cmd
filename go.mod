@@ -1,4 +1,4 @@
-module xorm.io/cmd
+module github.com/OnlyAthief/xorm-cmd
 
 go 1.14
 
@@ -12,3 +12,5 @@ require (
 	xorm.io/core v0.7.3
 	xorm.io/xorm v1.0.1
 )
+
+replace xorm.io/cmd => ./
